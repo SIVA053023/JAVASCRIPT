@@ -4,8 +4,8 @@ let b=45;
 let c=65;
 let d=90;
 let num=[89,45,65,90];
+
 num.sort(function(a,b){
-    return(a - b);
-}
-)
+    return b - a ;            // descending order
+});
 console.log(num);
