@@ -1,10 +1,13 @@
 /*Write a program Factors of 24 using while loop
  (Factors of 24 are 1, ,3, 4, 6, 12, 24) */
-
-let i=1;
-while(i<=24){
-    if(24%i===0){
-    console.log(i);
+ var x=1;
+ while(x<=24){
+    if(24%x===0){
+        
+        console.log(x);
+        
     }
-    i++
+    x++
+    
+
 }

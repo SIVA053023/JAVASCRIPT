@@ -7,5 +7,5 @@ var specifications={"fit":"regualar","size":39} // holding both homogenious and 
 console.log(typeof sizes);
 console.log(typeof specifications);
 
-document.write(typeof sizes);
-document.write(typeof specifications);
+//document.write(typeof sizes);
+//document.write(typeof specifications);
