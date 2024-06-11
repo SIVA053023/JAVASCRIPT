@@ -1,0 +1,13 @@
+<html>
+    <head>Using the ON focus</head>
+    <body>
+        <input id="myinput" type="text" placeholder="Siva" onfocus="Siva()" >
+    </body>
+    <script>
+        function Siva(){
+            let change=document.getElementById('myinput')
+            console.log(change);
+            change.style.backgroundColor='green';
+        }
+    </script>
+</html>
