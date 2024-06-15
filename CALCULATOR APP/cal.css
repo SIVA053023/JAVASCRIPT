@@ -1,16 +1,4 @@
 *{
-    padding: 0;
-    margin: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    box-sizing: border-box;
-}
-
-
-
-.demo{
-    background-color: black; justify-content: center; align-items: center; width:50%; 
-    
-}
-.siva{
-    justify-content: center; align-items: center;
+    width:"500px";
+    height:"5000px"
 }
