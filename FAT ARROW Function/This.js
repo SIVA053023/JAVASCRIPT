@@ -3,7 +3,7 @@
 function A(){
     console.log(this);
 }
-A()                      // her ethe output= object contest is bigger
+A()                      // her the output= object contest is bigger
 
 // FAT Arrow Function
 let B=()=>{
