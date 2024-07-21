@@ -66,6 +66,18 @@ console.log(ids.includes(9))   // output=false
 console.log(ids.indexOf(3))  // output=2
 console.log(ids.indexOf(5))   // output=4
 
+//REVERSE    it is for to reverse the order of an array
+
+console.log(ids.reverse())  // output=[ 5, 4, 3, 2, 1 ]
+
+//SORT is for to set the ascending and decending order of an array but by Default it is ascending
+
+let roll_no=[101,103,108,105,104,102,107,106]
+//ascending order
+console.log(roll_no.sort())  //output=[101, 102, 103, 104, 105, 106,107, 108]
+
+// descending order
+console.log(roll_no.sort((a,b)=>b-a))  // output=[108, 107, 106,105, 104, 103,102, 101]
 
 
 
