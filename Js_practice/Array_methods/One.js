@@ -87,5 +87,10 @@ console.log(ro.find(a=>a>2))  //output=3 cause 3 is the first number which is gr
 
 console.log(ro.findIndex(a=>a>3))  // output=3 cause index of element 4 is 3 
 
+// REDUCE  Executes a reducer function on each element of the array, resulting in a single output value.
+let nos=[1,2,3,4]
+let gh=nos.reduce((a,b)=>a+b,0)
+console.log(gh)   // output=10   (1+2+3+4)
+
 
 
