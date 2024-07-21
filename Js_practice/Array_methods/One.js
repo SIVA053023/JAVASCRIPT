@@ -79,5 +79,13 @@ console.log(roll_no.sort())  //output=[101, 102, 103, 104, 105, 106,107, 108]
 // descending order
 console.log(roll_no.sort((a,b)=>b-a))  // output=[108, 107, 106,105, 104, 103,102, 101]
 
+//FIND returns the first element that passes the test.
+let ro=[1,2,3,4,5]
+console.log(ro.find(a=>a>2))  //output=3 cause 3 is the first number which is greater than 2
+
+//FINDINDEX    returns the index of the first element that passes the test.
+
+console.log(ro.findIndex(a=>a>3))  // output=3 cause index of element 4 is 3 
+
 
 
