@@ -92,5 +92,15 @@ let nos=[1,2,3,4]
 let gh=nos.reduce((a,b)=>a+b,0)
 console.log(gh)   // output=10   (1+2+3+4)
 
+//SLICE Returns a shallow copy of a portion of an array into a new array.
+let one=['a','b','c','d','e']
+let ry=one.slice(1,4)  // output=[b,c,d]
+console.log(ry)
 
+// Remove dupliactes by using the FILTER method
+let num=[1,2,4,2,5,6,5,3,8,9,5]
+let rd=num.filter((a,b)=>{
+    return num.indexOf(a)===b
+})
+console.log(rd.sort((a,b)=>b-a))
 
