@@ -102,5 +102,23 @@ let num=[1,2,4,2,5,6,5,3,8,9,5]
 let rd=num.filter((a,b)=>{
     return num.indexOf(a)===b
 })
-console.log(rd.sort((a,b)=>b-a))
+console.log(rd.sort((a,b)=>b-a))     //output=[9, 8, 6, 5,4, 3, 2, 1 ]
 
+//FOREACH Executes a provided function once for each array element.
+let dc=[1,2,3,4,5,6]
+dc.forEach(element=>element)   ///output=[ 1, 2, 3, 4, 5, 6 ]
+console.log(dc)
+
+
+//MAP Creates a new array with the results of calling a provided function on every element.  here we definitly Assign to new array
+// let fr=[1,2,3];                     // it not posiible cause we are not asssign the fr to any new array variable if you you want execute this we need to provide
+// fr.map(element=>element * 2);       // correct expresssion, let fr=fr.map(element=>element * 2)
+// console.log(fr)  //output=[2,4,6]
+let ar1 = [1, 2, 3];
+let mapped = ar1.map(element => element * 2);
+console.log(mapped); // Output: [2, 4, 6]
+
+//FILTER  Creates a new array with all elements that pass the test implemented by the provided function.
+let ter=[1,2,3,4,5]
+let filter=ter.filter(a=>a%2===0)   // output=[ 2, 4 ]
+console.log(filter)                
