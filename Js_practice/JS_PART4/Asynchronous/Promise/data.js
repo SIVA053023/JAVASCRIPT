@@ -7,6 +7,7 @@ let createEmployee=(emp)=>{
                   let flag=true
                   flag?resolve("data inserted"):reject("failed")
                   employees.push(emp)
+                  
                },4000)
       })
 }
