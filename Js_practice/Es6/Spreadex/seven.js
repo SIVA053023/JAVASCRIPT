@@ -8,5 +8,5 @@ let user={
     name:"Siva",
     esal:95623
 }
-let one={...emp,...user}
+let one={...emp,...user}   // here user overrides the emp and user object printed
 console.log(one)
