@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+}
+#yes{
+    background-color: red;
+}
+#target{
+    background-color: blue;
+        position: absolute;
+        right: 50px; /* Example initial position */
+        top: 50px;  /* Example initial position */
+        /* right: 50px; */
+    
+}

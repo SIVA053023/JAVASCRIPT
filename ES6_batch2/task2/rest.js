@@ -9,7 +9,7 @@ let details={
     esal:789798
 }
 
-let emp_details={...emp,...details}
+let emp_details={...emp,...details}   // this is a spread operator
 console.log(emp_details)
 let one=[{...emp,...details,eloc:"banglore"}]
 console.log(one)
