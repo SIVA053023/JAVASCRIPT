@@ -45,4 +45,4 @@ let siva={id:102,
     sal:45000
 }
 let krishna={...emp1,...siva}
-console.log(krishna)              // output={ id: 102, ename: 'Siva', sal: 45000 } 
+console.log(krishna)              // output={ id: 102, ename: 'Siva', sal: 45000 }   overrides
