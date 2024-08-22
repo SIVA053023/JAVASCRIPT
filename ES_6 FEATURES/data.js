@@ -514,12 +514,23 @@ let employees=[{"id":1,"first_name":"Myrtice","last_name":"Kertess","email":"mke
 
 //                                             BY USING THE FILTER
 
-let male_employes=employees.filter((emp)=>{
-    return emp.gender==="Female"
-})
-console.log(male_employes.length)
+// let male_employes=employees.filter((emp)=>{
+//     return emp.gender==="Female"
+// })
+// console.log(male_employes.length)
 
-let female_employees=employees.filter((emp)=>{
-         return emp.gender==="Male"
-})
-console.log(female_employees.length)
+// let female_employees=employees.filter((emp)=>{
+//          return emp.gender==="Male"
+// })
+// console.log(female_employees.length)
+
+//                                              BY  USING FOR EACH
+
+let female=[]
+
+for(let i=0;i<=employees.length-1;i++){
+    if(employees[i].gender==="Female"){
+            female.push(employees[i])
+    }
+}
+console.log(female)
