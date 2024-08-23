@@ -1,0 +1,9 @@
+1-->  let,const
+2     class
+3     ()=>{}  fat arrow
+4     ${}  String literal
+5     []     new methods
+6     ...  Spread opearator    and rest opearator
+7     import and export
+8     Obect destructuring    ex:-      let [a,b]=[5,4]  here a=5 and b=4
+9     Async await, promise, callback
