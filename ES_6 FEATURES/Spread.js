@@ -27,3 +27,7 @@ console.log(two)
 let Extending={...emp,Company:"TCS",Country:"INDIA"}           // extending the emp Object
 console.log(Extending)
 
+
+
+
+
