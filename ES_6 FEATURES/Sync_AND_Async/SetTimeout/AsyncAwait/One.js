@@ -28,4 +28,4 @@ let Example=async()=>{
     await Createemployee({id:103,name:"Priyanka",sal:56000})
     getemployees()
 }
-Example();
+Example();        // invoking the Example
