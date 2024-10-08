@@ -8,3 +8,8 @@ let createEmployee=()=>{
         })
     })
 }
+let emp=employees.map(em=>{
+    if(em=="Rahul"){
+        return em;
+    }
+})
